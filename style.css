@@ -1,0 +1,13 @@
+#header_app {
+    background-color: white;
+}
+
+#main_app {
+    background-color: #f6f8f9;
+}
+
+.container {
+    width: 80%;
+    background-color: white;
+    border-radius: 5%;
+}
