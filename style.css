@@ -2,13 +2,17 @@
 body {
     margin: auto;
     background-color: #f6f8f9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 hr {
-    color: #c5cbd0;
-    border: 1px;
+    border: 1px solid #c5cbd0;
 }
 
+p {
+    font-size: 18px;
+    vertical-align: middle;
+}
 
 /*-- !common --*/
 
@@ -29,7 +33,6 @@ hr {
     font-size: 2.5em;
     font-weight: bold;
     vertical-align: middle;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .logo_img {
@@ -54,8 +57,6 @@ hr {
     margin: auto;
 }
 
-
-
 .add_padding {
     padding: 2% 5%;
 }
@@ -66,8 +67,8 @@ hr {
 }
 
 #add_task {
-    border: 1px solid #47adf1;
-    background-color: #47adf1;
+    border: 1px solid #45abea;
+    background-color: #45abea;
     color: white;
 }
 
@@ -76,5 +77,60 @@ hr {
     color: #c5cbd0
 }
 
+.mark {
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    padding: 4px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 10px;
+}
+
+.list_point {
+    font-size: 18px;
+}
+
+.tag {
+    font-size: 12px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    color: white;
+}
+
+.green {
+    color: #65c0a9;
+    border: 2px solid #65c0a9;
+}
+
+.red {
+    color: #f0928e;
+    border: 2px solid #f0928e;
+}
+
+.light_blue {
+    background-color: #45abea;
+}
+
+.violet {
+    background-color: #9c72e4;
+}
+
+.dark_green {
+    background-color: #64c0a9;
+}
+
+.orange {
+    background-color: #f29e33;
+}
+
+.pink {
+    background-color: #d863a1;
+}
+
+.light_green {
+    background-color: #b0c926;
+}
 
 /*-- !main --*/
