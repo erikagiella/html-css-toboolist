@@ -17,6 +17,16 @@ main {
     box-sizing: border-box;
 }
 
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 1rem;
+}
+
+
+
 /*-- !common --*/
 
 
@@ -27,18 +37,15 @@ main {
     margin: 0 auto;
 }
 
-
 .card {
     background-color: white;
     border-radius: 1rem;
     box-shadow: 0 0 10px #c5cbd0;
 }
 
-
 .card .card-header {
     border-bottom: 2px solid #f6f8f9;
 }
-
 
 .card .card-header,
 .card .card-body {
@@ -61,6 +68,74 @@ main {
 .btn-outline-light {
     border: 1px solid #c5cbd0;
     color: #c5cbd0;
+}
+
+.icon {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    padding: 0.15rem;
+}
+
+.checkmark {
+    border: 1px solid #65c0a9;
+    color: #65c0a9;
+    font-weight: bold;
+}
+
+.cancel {
+    border: 1px solid #f0928e;
+    color: #f0928e;
+    font-weight: bold;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.75rem;
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    color: white;
+}
+
+
+
+/* Colors */
+.bg-editorial {
+    background-color: #45abea;
+}
+
+.bg-goals {
+    background-color: #9c72e4;
+}
+
+.bg-recruiting {
+    background-color: #64c0a9;
+}
+
+.bg-mobile {
+    background-color: #f29e33;
+}
+
+.bg-website {
+    background-color: #d863a1;
+}
+
+.bg-sales {
+    background-color: #b0c926;
+}
+
+
+/* Spacing */
+
+.mb-1 {
+    margin-bottom: 1rem;
+}
+
+.mb-2 {
+    margin-bottom: 2rem;
 }
 
 /*-- !Utilities --*/
@@ -92,68 +167,23 @@ header img {
 /*-- !header --*/
 
 
-/*-- main --*/
-.add_btns {
-    padding: 5px 10px;
-    border-radius: 5px;
-}
+/*-- Footer--*/
 
-
-.mark {
-    width: 20px;
-    height: 20px;
-    border-radius: 20px;
-    padding: 4px;
+footer {
+    background-color: white;
+    padding: 1rem 2rem;
     text-align: center;
-    line-height: 20px;
-    font-size: 10px;
+    margin-top: 2rem;
 }
 
-.list_point {
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
     font-size: 18px;
-    margin: 5px;
 }
 
-.tag {
-    font-size: 12px;
-    border: 1px solid;
-    border-radius: 10px;
-    padding: 5px 10px;
-    color: white;
-}
 
-.green {
-    color: #65c0a9;
-    border: 2px solid #65c0a9;
-}
-
-.red {
-    color: #f0928e;
-    border: 2px solid #f0928e;
-}
-
-.light_blue {
-    background-color: #45abea;
-}
-
-.violet {
-    background-color: #9c72e4;
-}
-
-.dark_green {
-    background-color: #64c0a9;
-}
-
-.orange {
-    background-color: #f29e33;
-}
-
-.pink {
-    background-color: #d863a1;
-}
-
-.light_green {
-    background-color: #b0c926;
-}
-
-/*-- !main --*/
+/*-- !Footer --*/
