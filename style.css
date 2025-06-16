@@ -5,17 +5,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-hr {
-    border: 1px solid #f6f8f9;
-}
-
 
 main {
-    width: 80%;
-    background-color: white;
-    border-radius: 10px;
     margin: 30px auto;
 }
+
 
 * {
     margin: 0;
@@ -24,6 +18,52 @@ main {
 }
 
 /*-- !common --*/
+
+
+/*-- Utilities --*/
+.container {
+    max-width: 800px;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+.card {
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px #c5cbd0;
+}
+
+
+.card .card-header {
+    border-bottom: 2px solid #f6f8f9;
+}
+
+
+.card .card-header,
+.card .card-body {
+    padding: 1rem 2rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    background-color: transparent;
+}
+
+.btn-primary {
+    background-color: #45abea;
+    color: white;
+    border: 1px solid #45abea;
+}
+
+.btn-outline-light {
+    border: 1px solid #c5cbd0;
+    color: #c5cbd0;
+}
+
+/*-- !Utilities --*/
 
 
 /*-- header --*/
@@ -53,33 +93,11 @@ header img {
 
 
 /*-- main --*/
-
-.container {
-    max-width: 800px;
-    width: 95%;
-    margin: 0 auto;
-    padding: 10px 30px;
-}
-
-.add_padding {
-    padding: 2% 5%;
-}
-
 .add_btns {
     padding: 5px 10px;
     border-radius: 5px;
 }
 
-#add_task {
-    border: 1px solid #45abea;
-    background-color: #45abea;
-    color: white;
-}
-
-#add_sect {
-    border: 1px solid #c5cbd0;
-    color: #c5cbd0
-}
 
 .mark {
     width: 20px;
@@ -93,6 +111,7 @@ header img {
 
 .list_point {
     font-size: 18px;
+    margin: 5px;
 }
 
 .tag {
